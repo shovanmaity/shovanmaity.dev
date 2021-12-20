@@ -1,1 +1,3 @@
-theme: "PaperMod"
+theme: PaperMod
+minify:
+  disableXML: true

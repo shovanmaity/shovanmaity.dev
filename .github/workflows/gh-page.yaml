@@ -19,8 +19,9 @@ jobs:
         with:
           hugo-version: 'latest'
 
-      - name: Build Hugo minify
-        run: hugo --minify
+      - name: Build Hugo PaperMod
+        run: hugo --minify -t PaperMod
+        #run: hugo -t PaperMod
 
       - name: Deploy using gh pages
         uses: peaceiris/actions-gh-pages@v3
