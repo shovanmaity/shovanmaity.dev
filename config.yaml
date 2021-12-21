@@ -1,3 +1,25 @@
+baseURL: http://shovanmaity.dev
+languageCode: en-us
+title: Shovan Maity
 theme: PaperMod
+
 minify:
   disableXML: true
+
+params:
+  profileMode:
+    enabled: true
+    title: Shovan Maity
+    imageUrl: https://avatars.githubusercontent.com/u/14263515
+    imageWidth: 120
+    imageHeight: 120
+  
+  socialIcons:
+  - name: GitHub
+    url: https://github.com/shovanmaity
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com/in/shovan-maity"
+  - name: Medium
+    url: https://shovanmaity.medium.com
+  - name: Twitter
+    url: https://twitter.com/_shovan_maity
